@@ -1,0 +1,44 @@
+
+main ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  text-align: center;
+
+  list-style-type: none;
+  padding: 0;
+}
+
+main ul li {
+  border: 1px #001DFF dotted;
+  margin-bottom: 10px;
+}
+
+main ul li * {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+main ul li img {
+  height: 90%;
+  width: 90%;
+
+  min-height: 20%;
+  min-width: 20%;
+}
+
+main ul li:last-child img {
+  max-height: 40%;
+  max-width: 40%;
+
+  min-height: 20%;
+  min-width: 20%;
+}
+
+main ul li p {
+  margin-top: 0;
+  font-weight: lighter;
+  font-size: smaller;
+}
